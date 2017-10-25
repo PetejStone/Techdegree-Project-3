@@ -154,7 +154,7 @@ footer {
   }
 
   .flex > label {
-    margin-right: auto;
+    width: 30%
   }
 
   .flex > input,
@@ -175,7 +175,7 @@ footer {
   }
 
   input[type=zip] {
-    
+    width: 35%;
   }
 
 
