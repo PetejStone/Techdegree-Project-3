@@ -45,7 +45,7 @@ section {
  */
 
 h1 {
-  font-size: 2em;
+  ze: 2em;
   margin: 0;
 }
 
@@ -246,6 +246,41 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   /*margin: 0; /* 2 */
+}
+
+input, textarea {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 22px system-ui;
+}
+
+select {
+  font-size: 1em;
+  width: 100%;
+  height: 4.5rem;
+  margin-bottom: 1.5em;
+  margin-top: .5em;
+  background-color: #f2f2f2;
+  /*box-shadow: inset -1.5px -1px 20px 1px;*/
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 6em;
+}
+
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
 }
 
 /**

@@ -68,10 +68,9 @@ legend {
   width: auto;
 }
 
-.flex > input,
-select {
+.flex > input {
   width: 100%;
-  height: 5em;
+  height: 3em;
   margin-bottom: 1.5em;
   margin-top: .5em;
   background-color: #f2f2f2;
@@ -80,12 +79,13 @@ select {
   border-radius: 5px;
 }
 
+
 input::placeholder {
   text-align: right;
   color: #d1d1d1;
   padding-right: 10px;
+  font-size: .75rem;
 }
-
 
 
 .contact {
@@ -103,6 +103,16 @@ input::placeholder {
   margin-top: 1em;
 }
 
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #f00;
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: #f00;
+}
+
 .comments {
   padding: 0 0 .5em 0;
   margin-left: 0;
@@ -116,6 +126,7 @@ textarea {
   border-radius: 5px;
   border: none;
 }
+
 
 button {
   width: 100%;
