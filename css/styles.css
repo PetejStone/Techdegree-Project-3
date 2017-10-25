@@ -167,22 +167,15 @@ footer {
     margin-top: 1.6em;  /*Aligns labels with input elements*/
   }
 
-  label[zip] {
-    display: flex;
-    flex-direction: row-reverse;
 
-  }
-
-
-  input[type=zip] {
-    width: 35%;
-    margin-right: auto;
-    border-radius: 5px;
-  }
 
   textarea {
     width: 100%;
     height: 15em;
+  }
+
+  input[type=zip] {
+    
   }
 
 
