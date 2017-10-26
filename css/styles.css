@@ -123,17 +123,16 @@ input[type="radio"]:checked + label {    /*Added styling to labels when checked*
   color: #f00;
 }
 
-.comments {
-  padding: 0 0 .5em 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 textarea::placeholder {
   font-size: .75rem;
   color: #d1d1d1;
   padding-left: 10px;
   padding-top: 5px;
+}
+
+label[for^="comments"] {
+  margin-top: 2em;
+  display: flex;   /*Needed for margin-top to work*/
 }
 
 textarea {

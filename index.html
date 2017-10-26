@@ -54,7 +54,7 @@
             <label for="states">State:</label><br>
             <select id="states" name="user_state">
               <optgroup label="States">
-                <option value="" disabled selected>Choose State</option>
+                <option value="disabled selected" hidden>Choose State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -141,20 +141,15 @@
           <label for="format_pt">Plain Text</label>
           <br>
 
-        </fieldset>
-        <fieldset class="comments">
 
-          <p>Other topics you'd like to hear about:</p>
+
+          <label for="comments">Other topics you'd like to hear about:</label>
           <!--Placeholder text added to text area  -->
           <textarea id="comments" name="user_comments" rows="15" placeholder="Comment Here"></textarea>
           <br>
 
-
-        </fieldset>
-        <fieldset class="submit">
           <button type="Submit" name="Submit">Sign Up</button>
         </fieldset>
-
       </form>
 
       <footer>
