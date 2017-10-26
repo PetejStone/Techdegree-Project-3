@@ -132,6 +132,7 @@ textarea::placeholder {
 
 label[for^="comments"] {
   margin-top: 2em;
+  margin-bottom: .75em;
   display: flex;   /*Needed for margin-top to work*/
 }
 
